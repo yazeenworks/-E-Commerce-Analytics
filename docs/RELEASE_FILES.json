@@ -1,0 +1,521 @@
+{
+  "project": "Fuzzy Factory Commerce Intelligence",
+  "release_date": "2026-10-24",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 173,
+      "sha256": "29fb707474daa28d51dd2e7edfe8a5ebf4de58da057afaf8e11d291124a8c2a7"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1378,
+      "sha256": "1e89987538de84db62a4951dcb6ec40b020ae962a5887437db155027b5660877"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8384,
+      "sha256": "5741d310229d9fec85960f7d2120d8d7626a1861af1d3416a7147b899bd2f886"
+    },
+    {
+      "path": "START_HERE.txt",
+      "bytes": 1891,
+      "sha256": "ea64ecf1932c6d11595e900ceb098536220d5e8ce865a75a4f23260658d8bddb"
+    },
+    {
+      "path": "START_MAC.command",
+      "bytes": 69,
+      "sha256": "46a79ecafb3136ddfa61af6e4c94f17855447cdaca9478d021acb11ff2e40206"
+    },
+    {
+      "path": "START_WINDOWS.bat",
+      "bytes": 69,
+      "sha256": "836fd5776465336265a653886f20439b2551bdd2f288560fef356319e741e6d8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 827,
+      "sha256": "3c2d0e8f3c939a7a867b7640428e5dd28ac53a06a1ffadb1778d291e3850c80a"
+    },
+    {
+      "path": "dashboard/assets/PLOTLY_LICENSE.txt",
+      "bytes": 1086,
+      "sha256": "8c45d9eaf50c2f72dd9c7ab9ef440788ba58a3538484b5c51c1f17d5128752e7"
+    },
+    {
+      "path": "dashboard/assets/app.js",
+      "bytes": 44038,
+      "sha256": "4c5aba58a7f9dfb0c1f402410a19667af89d3f9a25f887ee132c7407bfd61248"
+    },
+    {
+      "path": "dashboard/assets/data.js",
+      "bytes": 11410039,
+      "sha256": "66873ee29b13b38ee7500562452c300459d846808073f9809db1ae92f49e4074"
+    },
+    {
+      "path": "dashboard/assets/plotly.min.js",
+      "bytes": 4653932,
+      "sha256": "a32e817bb121e9e89016ce4cee85ee3f1c66f6a6c95c4b53a5f488f77756d7a4"
+    },
+    {
+      "path": "dashboard/assets/style.css",
+      "bytes": 13099,
+      "sha256": "009a83bf8ca0b5e8945752a88111704683b2e3b5a4af30cee6a25e13c91dec2c"
+    },
+    {
+      "path": "dashboard/fuzzy-factory.html",
+      "bytes": 3072,
+      "sha256": "fdcde4aa21bb2d91eb0eefa70985fc8b82619c103329a70948bd644bcace76e0"
+    },
+    {
+      "path": "data/exports/dim_customers.csv",
+      "bytes": 1738391,
+      "sha256": "029dba9a079246983bc54f33e406d94dd07298d7a48458e8710626e9c49029bf"
+    },
+    {
+      "path": "data/exports/dim_dates.csv",
+      "bytes": 24424,
+      "sha256": "124ad81fbf3c1ed56ab32df6ab62587e632458defdc14e38e7c616a4eaafbb7d"
+    },
+    {
+      "path": "data/exports/dim_products.csv",
+      "bytes": 220,
+      "sha256": "155262d23160c718f635dc2fa168ea1ae638341b189434eefe09ed895d8557e5"
+    },
+    {
+      "path": "data/exports/fct_order_items.csv",
+      "bytes": 5647268,
+      "sha256": "8a43316b36463b105722aadf9ea16ae44f3e7de7ea4bd20086468cc592b8ce65"
+    },
+    {
+      "path": "data/exports/fct_orders.csv",
+      "bytes": 3612720,
+      "sha256": "7be40ad5744e31cf4912712b26e52833ca8b5a4325d35ec0accc4028b977f4d6"
+    },
+    {
+      "path": "data/exports/fct_sessions.csv",
+      "bytes": 54221100,
+      "sha256": "643392c3e6ea82991106f5c27df99c4c2776ca41fc9fd31f9732a77af08d6873"
+    },
+    {
+      "path": "data/raw/maven_fuzzy_factory_data_dictionary.csv",
+      "bytes": 2538,
+      "sha256": "200877f159ad9ea59780c9a9083a7161423b58225a23db4ffb9fc419ae61c199"
+    },
+    {
+      "path": "data/raw/order_item_refunds.csv",
+      "bytes": 73965,
+      "sha256": "50ad2b8dd1c3dffed3fb9bf0bf288d026bd19cd1032d28ddc59c2623e07a1186"
+    },
+    {
+      "path": "data/raw/order_items.csv",
+      "bytes": 1933914,
+      "sha256": "751514dfc2f6862dd1afe67dff7f313ec8299eae3fffbb18b1de50bfce93e903"
+    },
+    {
+      "path": "data/raw/orders.csv",
+      "bytes": 1819538,
+      "sha256": "ed9923cfbdbb9e9d8e1eaf6443d45085165bd067709c359e7189769c835deefe"
+    },
+    {
+      "path": "data/raw/products.csv",
+      "bytes": 225,
+      "sha256": "116d5f261a5934c46232a3083b9da298cca94157826a41e87566c8c4034175a8"
+    },
+    {
+      "path": "data/raw/website_pageviews.csv",
+      "bytes": 56915398,
+      "sha256": "e325f5678acc76356670a7538d185613265ba26038c6a2a5a0af68cc68722c4a"
+    },
+    {
+      "path": "data/raw/website_sessions.csv",
+      "bytes": 42106732,
+      "sha256": "dc975b8c51b4ebdc56b94863c9e1cd94e74d1a9f36ce296d45707a8df87b8204"
+    },
+    {
+      "path": "data/warehouse/fuzzy.duckdb",
+      "bytes": 36188160,
+      "sha256": "1f1523ab264285be72f33c35fd2e7f6bf0947fecb7713c092c18ff0a60f92156"
+    },
+    {
+      "path": "dbt_project/dbt_project.yml",
+      "bytes": 226,
+      "sha256": "0469b3834afb3ce19be567ac32a0043e6f2baf5e865edf3978f703ceb9f11fea"
+    },
+    {
+      "path": "dbt_project/models/marts/dim_customers.sql",
+      "bytes": 192,
+      "sha256": "b22c4123facc05d89542c2b660863ff2ab39b7cf1afeb5ecfa197e4ac15c161d"
+    },
+    {
+      "path": "dbt_project/models/marts/dim_dates.sql",
+      "bytes": 279,
+      "sha256": "4f5ccc701447739b486a718ef44d6d23ece617b41df7c64b14e1d4b661604600"
+    },
+    {
+      "path": "dbt_project/models/marts/dim_products.sql",
+      "bytes": 40,
+      "sha256": "1f3906cbd137b57786bca4571fcc9bdfb6a8b7c18bb7ee23c3db6e38c227a210"
+    },
+    {
+      "path": "dbt_project/models/marts/fct_order_items.sql",
+      "bytes": 891,
+      "sha256": "78b2a54303414dff4ac8fcf2af3bf559533535a46428d872b1e6afe47a6f5805"
+    },
+    {
+      "path": "dbt_project/models/marts/fct_orders.sql",
+      "bytes": 733,
+      "sha256": "657a6dc32e09fc9896fe5bc588dbc74886f7ebb757a0c5049b573a49df0502f5"
+    },
+    {
+      "path": "dbt_project/models/marts/fct_sessions.sql",
+      "bytes": 1835,
+      "sha256": "2bab72f3be72bc2a9386f9c872ab0f677edd9ecdf55dcb04d0112f08f6c5fc3c"
+    },
+    {
+      "path": "dbt_project/models/models.yml",
+      "bytes": 620,
+      "sha256": "271125844f8b1ba4c13eb640d999474eb9541103503717e06cfd3382be5e81fc"
+    },
+    {
+      "path": "dbt_project/models/sources.yml",
+      "bytes": 235,
+      "sha256": "18d2bc0d17cbff12a7d8d50c2ca06779696495bc830cb3236d224779e62a450d"
+    },
+    {
+      "path": "dbt_project/models/staging/stg_items.sql",
+      "bytes": 213,
+      "sha256": "370778a6f3dff3db03e5606affd9fd17f7c43c8411db121484dc7f67cdeab88c"
+    },
+    {
+      "path": "dbt_project/models/staging/stg_orders.sql",
+      "bytes": 229,
+      "sha256": "d6a2fe38b6438e3b3f714f3104bc409061daaaccd2b6d52e57355836c27bbffb"
+    },
+    {
+      "path": "dbt_project/models/staging/stg_pageviews.sql",
+      "bytes": 147,
+      "sha256": "58a661eb994e051a7753f4dc46ab4898567ef672b0196b48a8a261080b56eaf3"
+    },
+    {
+      "path": "dbt_project/models/staging/stg_products.sql",
+      "bytes": 110,
+      "sha256": "0d1140e805664ab0c871d1ac3f3bc31d2edab36d40de98e88468edb49340bbca"
+    },
+    {
+      "path": "dbt_project/models/staging/stg_refunds.sql",
+      "bytes": 194,
+      "sha256": "61141808783107a96fc9866214ecc07d735a313ab2886d1f7f5031034ee81e48"
+    },
+    {
+      "path": "dbt_project/models/staging/stg_sessions.sql",
+      "bytes": 545,
+      "sha256": "cd9e5673ce5c813b6bb03fdcbaac41fdc0d241a005880adb47d64800c94c7474"
+    },
+    {
+      "path": "dbt_project/profiles.yml",
+      "bytes": 168,
+      "sha256": "cd27c35c7db482a35f1d2d71fdc1aba178c8bf7a44730571dd719507ebd56df5"
+    },
+    {
+      "path": "dbt_project/tests/funnel_monotonic.sql",
+      "bytes": 198,
+      "sha256": "9ab3d63756a15d73ad336f4212f0bb0b1c4e1d3e834083842bb8df128e8c40f5"
+    },
+    {
+      "path": "dbt_project/tests/items_have_orders.sql",
+      "bytes": 136,
+      "sha256": "340a3eb3ffb0fc0184dcdfc8f672a81d83db9db696577ed765ada218c794149e"
+    },
+    {
+      "path": "dbt_project/tests/items_have_products.sql",
+      "bytes": 142,
+      "sha256": "b1f7e015a6f58d7253267ff5132cf7d8c0ef8f7d0d6acea9540d6dc9102ae5ea"
+    },
+    {
+      "path": "dbt_project/tests/key_dim_customers.sql",
+      "bytes": 110,
+      "sha256": "4cb79cd458eb7e456607af756d8ede46ad11ebaa0f8614ee44028f9efd3cbc03"
+    },
+    {
+      "path": "dbt_project/tests/key_dim_dates.sql",
+      "bytes": 108,
+      "sha256": "64ff54175ba508b064c207ea6ebf230e12ff28dc4d802d8b26b5b1d4fd060388"
+    },
+    {
+      "path": "dbt_project/tests/key_dim_products.sql",
+      "bytes": 115,
+      "sha256": "668ba3f5e1c3058e231e1008f579ab8b25ff61f0a34959c7f204848a443309de"
+    },
+    {
+      "path": "dbt_project/tests/key_fct_order_items.sql",
+      "bytes": 124,
+      "sha256": "6d785af04a2a3a7f33df44bb9fdae0b45a04a17e9fb20eb53b78398d9c6e6e98"
+    },
+    {
+      "path": "dbt_project/tests/key_fct_orders.sql",
+      "bytes": 109,
+      "sha256": "2873c2f2b0955696513e171bd8ee81036f95df422c437447a28eaf385292d405"
+    },
+    {
+      "path": "dbt_project/tests/key_fct_sessions.sql",
+      "bytes": 131,
+      "sha256": "87f2dd300c52a9a4241c4ddf2b92fc947c029401d9f02cba284abb1ca5abc6ac"
+    },
+    {
+      "path": "dbt_project/tests/normalized_attribution.sql",
+      "bytes": 143,
+      "sha256": "2ed486033567ad502746284548e3f652a552e12869e9cbda102e084798b3324d"
+    },
+    {
+      "path": "dbt_project/tests/order_item_totals.sql",
+      "bytes": 208,
+      "sha256": "d5f94dc4cbc6dae0e0ba754fdd2178af24d17bffda7981aaed49e245bc5b4739"
+    },
+    {
+      "path": "dbt_project/tests/orders_have_sessions.sql",
+      "bytes": 148,
+      "sha256": "c48ddf6fd50e02581530bf2c883767cf22790dcbf43840c79c629d98ea2cd500"
+    },
+    {
+      "path": "dbt_project/tests/pageviews_have_sessions.sql",
+      "bytes": 162,
+      "sha256": "14b208aff889e318e973182b6c0fdb2363e0e6f8fc4885e3aa39333809216844"
+    },
+    {
+      "path": "dbt_project/tests/positive_item_values.sql",
+      "bytes": 106,
+      "sha256": "ea5fa481bb25f929d896db327cc0a0f3a4c578114d25105cee9e74bce85862b3"
+    },
+    {
+      "path": "dbt_project/tests/profit_math.sql",
+      "bytes": 163,
+      "sha256": "e5090d8791aefbd33e0855c9592b5902ba77e7ddb8545838a345efcfc000e85c"
+    },
+    {
+      "path": "dbt_project/tests/refund_reconciliation.sql",
+      "bytes": 146,
+      "sha256": "61fbfcc38a1a2c0718197cb16c69b4b7915f0d4852cdb9f6771a9e7d7c7577ce"
+    },
+    {
+      "path": "dbt_project/tests/revenue_reconciliation.sql",
+      "bytes": 145,
+      "sha256": "b30b8a45afc73c810ae7631fdb3f456186e75f7e738fc56de3c1f2f225bbbee1"
+    },
+    {
+      "path": "dbt_project/tests/rows_fct_order_items.sql",
+      "bytes": 132,
+      "sha256": "1a4eb4487cad015e4e37498f3122e2468898c3889179c8abb8888c0bb954e718"
+    },
+    {
+      "path": "dbt_project/tests/rows_fct_orders.sql",
+      "bytes": 122,
+      "sha256": "efa190596a5c2e3c3c3b3eb446f2c3130d31f99274c188ccf8e954f036d9de5a"
+    },
+    {
+      "path": "dbt_project/tests/rows_fct_sessions.sql",
+      "bytes": 134,
+      "sha256": "4b8c60824104bd75b961037cbd69fb3c2ff156882656229af4eb07af4bf9a154"
+    },
+    {
+      "path": "docs/BROWSER_QA_RESULTS.json",
+      "bytes": 14389,
+      "sha256": "c45e0344ea6b87811a82a786b54aa5d134735e5c5ffec6b37cae6390f26d9ae1"
+    },
+    {
+      "path": "docs/BUILD_METADATA.json",
+      "bytes": 2581,
+      "sha256": "a7733e5fa52cc56d0641b38f6f3483f176b2c84a2ca16919b5639a14c2bf3cb5"
+    },
+    {
+      "path": "docs/DBT_RUN_RESULTS.json",
+      "bytes": 30020,
+      "sha256": "b808751c8096c23d041dbddb430a497032ccaa46fba601a2ed640384f2237e67"
+    },
+    {
+      "path": "docs/INTERVIEW_GUIDE.md",
+      "bytes": 2158,
+      "sha256": "8a9effa127f57d81e3cb241bcd4522d92131109d99fbd0f19e0e67b009931555"
+    },
+    {
+      "path": "docs/METRICS.md",
+      "bytes": 4265,
+      "sha256": "569fa3cc37eeb3a36025a8a805f19a11f52c775531b5c3e082138df32a9f9fe8"
+    },
+    {
+      "path": "docs/SOURCE_MANIFEST.json",
+      "bytes": 1461,
+      "sha256": "711b6ff8f9f2e9d056909b7a4fddc7ffaf0da5334b5c856dec05c3338f6433f1"
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "bytes": 2534,
+      "sha256": "da16bff8289e67e2fa1237727c0cad6c80af85ef7e7af0aaf859c19f32a752f3"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2183,
+      "sha256": "0ef8bafee67243eda596bfee1149cbdb2904d853972b5bdb192bd9879b82bc0a"
+    },
+    {
+      "path": "docs/screenshots/ask-your-data.png",
+      "bytes": 186357,
+      "sha256": "9a7918a4d64b25daea0c090cd7eac69b1b73bdd96432e8e735f2d4dabef4c764"
+    },
+    {
+      "path": "docs/screenshots/customers.png",
+      "bytes": 300419,
+      "sha256": "2fa0315cfa4e6c75921a2c454b6642335688599b33ac92db07351611ca4b37fa"
+    },
+    {
+      "path": "docs/screenshots/executive-1440.png",
+      "bytes": 271636,
+      "sha256": "bc7de6b8045743afe4e9f6808931bc3b7f57825589f3fa8dc29db199b32a769d"
+    },
+    {
+      "path": "docs/screenshots/executive-375.png",
+      "bytes": 203682,
+      "sha256": "3158c5e730ced12909ceb410a06aa7329732a95e68b15d512c117aee4a3ac316"
+    },
+    {
+      "path": "docs/screenshots/funnel.png",
+      "bytes": 333063,
+      "sha256": "bc29ddc6fefe8709acabb62a4178ba42da8460f94370155e8a11713b5fe5db7e"
+    },
+    {
+      "path": "docs/screenshots/products-dark.png",
+      "bytes": 279104,
+      "sha256": "8e6a35a23773930f663510e17c1247f252f8c3aec9d3413b65a33ac1bf106ba0"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 502,
+      "sha256": "a09d9a5990945cf4c966b93c0aefa0f757a111a3007a173e977290c7cacfec1f"
+    },
+    {
+      "path": "notebooks/01_project_walkthrough.ipynb",
+      "bytes": 73302,
+      "sha256": "24c09b9f0cd8dd652f1a8801e2cc9a787bb8b8d95ba1930068040bc46ec9d9e2"
+    },
+    {
+      "path": "powerbi/README.md",
+      "bytes": 1561,
+      "sha256": "e15bd1c8a9a9ecf0a5fcb288ea0f8f3eaaa46e1ab9d4854a1878d4d87449baad"
+    },
+    {
+      "path": "powerbi/fuzzy-theme.json",
+      "bytes": 217,
+      "sha256": "6b5956558ebdeed1d34bcb54b35ff966eecf7eef92f19e9da66242aa4ddebb41"
+    },
+    {
+      "path": "powerbi/load_table.pq",
+      "bytes": 587,
+      "sha256": "909ee54788ae589212344ff29843ed8bb8dac2fc0d5a113b663bebe650b19cc7"
+    },
+    {
+      "path": "powerbi/measures.dax",
+      "bytes": 1237,
+      "sha256": "7048c93a0f7accdec82a72a60b9612334e25d0db14b8f77bfbbec11a8de0d2dc"
+    },
+    {
+      "path": "requirements-browser-tests.txt",
+      "bytes": 39,
+      "sha256": "232116a0ba019554b21ab59ebb816709f23081b2d480c787c9b8ae01060539ea"
+    },
+    {
+      "path": "requirements-notebook.txt",
+      "bytes": 72,
+      "sha256": "663aa78239673659c991ec03f40d35413f61d3a3920a383a2b9bb5286eb8a7c5"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 92,
+      "sha256": "49e69e156126a070f7f12d80d61b5e7880b1c43986685149c7fabb1df8408ef9"
+    },
+    {
+      "path": "run.py",
+      "bytes": 1979,
+      "sha256": "dbabbd5cea4e514ef7f433c221cc88ddc715acdd484ab724437cb0b14c1534ce"
+    },
+    {
+      "path": "sql/01_executive.sql",
+      "bytes": 265,
+      "sha256": "06524a7245e314da854efa1ecec8ffff59b294689b2cd01d8ea10c54d266174c"
+    },
+    {
+      "path": "sql/02_monthly_growth.sql",
+      "bytes": 770,
+      "sha256": "d5da367d253b311c2c9cd2df338e59d56f5e86c53590902d7e85b0f593bfd9be"
+    },
+    {
+      "path": "sql/03_campaigns.sql",
+      "bytes": 293,
+      "sha256": "600b597099ccb3eb8172c764292e1d60dc700cabf8e4b51f7a97951d103f953d"
+    },
+    {
+      "path": "sql/04_products.sql",
+      "bytes": 253,
+      "sha256": "07f6a069af4750b0e5d0d9a9790154daef118a9a6991fbf74a8c57050fafc5e4"
+    },
+    {
+      "path": "sql/05_ordered_funnel.sql",
+      "bytes": 208,
+      "sha256": "ed790969e98532a7b564f91bf49c87d9ff49a494be9df0782e902941faac21f8"
+    },
+    {
+      "path": "sql/06_repeat_buyers.sql",
+      "bytes": 273,
+      "sha256": "a8382374410996010fb4289ade8a254bcef74ea504a9861cba740f3041c3124e"
+    },
+    {
+      "path": "sql/07_purchase_cohorts.sql",
+      "bytes": 700,
+      "sha256": "073866a95219f2906fe46b863a97b7505ea7e815fca1090460077f9d65c1d68f"
+    },
+    {
+      "path": "sql/08_quarterly_patterns.sql",
+      "bytes": 326,
+      "sha256": "2e7a83bd3f57da40776ebb67cc5be9d83f70fe9e6bbd7398d3e233830fbaa7d7"
+    },
+    {
+      "path": "sql/09_frequency_recency.sql",
+      "bytes": 415,
+      "sha256": "a61c01fb2df2dddaa510a9838b9207dc009a62d01c1576a2ffbba4ea0070f7dc"
+    },
+    {
+      "path": "sql/10_page_popularity.sql",
+      "bytes": 288,
+      "sha256": "b10bce0014c3491651779c0e80529cb5f80cd1ebf8b8c280351709e8911786e3"
+    },
+    {
+      "path": "sql/11_landing_focus.sql",
+      "bytes": 643,
+      "sha256": "5ac18aca85c2b08f082f9aacb2f76e64241dce736f334f82b63fd80653d6d7cf"
+    },
+    {
+      "path": "src/export.py",
+      "bytes": 3671,
+      "sha256": "37e872f21b6b4d16891629e5ddd40ca175a2d755c6d015f4a03c4fce1c348fc2"
+    },
+    {
+      "path": "src/ingest.py",
+      "bytes": 709,
+      "sha256": "fe928c2a358a6d1506409f705e1ba4db7e6be79f8c3bc8e7a50f92dcf890920d"
+    },
+    {
+      "path": "start_linux.sh",
+      "bytes": 81,
+      "sha256": "ca38cfe1f78d3a1f428c736bef60a18dd5ca1776538d357ed8f5013441d4d98a"
+    },
+    {
+      "path": "tests/browser_qa.py",
+      "bytes": 9961,
+      "sha256": "dcba9baae54c30251dd5d001a8187c13f5258ce3c8e600b934f91e5f01320d9b"
+    },
+    {
+      "path": "tests/test_warehouse.py",
+      "bytes": 3142,
+      "sha256": "6da3b1ff6099c83b32db43c3a8b2c2db82182cd8dca5ad34d1d2735a19883478"
+    }
+  ]
+}

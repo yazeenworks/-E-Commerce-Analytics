@@ -1,0 +1,1 @@
+select product_name,count(*) as items,sum(revenue_usd) as sales,sum(gross_profit_usd) as gross_profit,sum(refund_usd) as refunds,sum(refunded_item)*1.0/nullif(count(*),0) as refunded_item_rate from fct_order_items group by 1 order by gross_profit desc;

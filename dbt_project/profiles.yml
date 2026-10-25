@@ -1,0 +1,7 @@
+fuzzy_factory:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: "{{ env_var('FUZZY_DB_PATH', '../data/warehouse/fuzzy.duckdb') }}"
+      threads: 2

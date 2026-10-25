@@ -1,0 +1,12 @@
+name: fuzzy_factory
+version: '1.0.0'
+config-version: 2
+profile: fuzzy_factory
+model-paths: ['models']
+test-paths: ['tests']
+models:
+  fuzzy_factory:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

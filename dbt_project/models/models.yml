@@ -1,0 +1,14 @@
+version: 2
+models:
+  - name: fct_order_items
+    description: "One row per sold order item; refund events pre-aggregated by item."
+  - name: fct_orders
+    description: "One row per order; monetary amounts rolled up from item facts."
+  - name: fct_sessions
+    description: "One row per website session, with ordered funnel flags and pre-aggregated order amounts."
+  - name: dim_customers
+    description: "One row per observed buyer; first order defined over full history."
+  - name: dim_products
+    description: "One row per catalog product."
+  - name: dim_dates
+    description: "One row per observed calendar day."

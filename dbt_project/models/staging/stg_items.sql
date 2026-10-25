@@ -1,0 +1,1 @@
+select order_item_id,created_at::timestamp as created_at,order_id,product_id,is_primary_item,price_usd::decimal(18,2) as price_usd,cogs_usd::decimal(18,2) as cogs_usd from {{ source('source_csv','order_items') }}

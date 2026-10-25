@@ -1,0 +1,1 @@
+select o.order_id from {{ ref('stg_orders') }} o join {{ ref('fct_orders') }} f using(order_id) where abs(o.price_usd-f.revenue_usd)>0.01 or abs(o.cogs_usd-f.cogs_usd)>0.01 or o.items_purchased<>f.item_count

@@ -1,0 +1,689 @@
+{
+  "browser": "Chromium (headless, Linux)",
+  "modes": [
+    "local file://, light",
+    "local file://, dark"
+  ],
+  "viewports": [
+    "1440x1000",
+    "375x812",
+    "375x667 menu"
+  ],
+  "external_https_blocked": true,
+  "checks_passed": 168,
+  "uncaught_errors": [],
+  "checks": [
+    {
+      "check": "SQL reconciliation: orders",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: revenue",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: gp",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: refunds",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: cogs",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: buyers",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: sessions",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: converted",
+      "status": "pass"
+    },
+    {
+      "check": "Full order count",
+      "status": "pass"
+    },
+    {
+      "check": "1440px overview: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px overview: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px overview: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px overview: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px marketing: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px marketing: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px marketing: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px marketing: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px products: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px products: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px products: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px products: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px funnel: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px funnel: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px funnel: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px funnel: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px seasonality: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px seasonality: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px seasonality: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px seasonality: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px customers: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px customers: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px customers: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px customers: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px ask: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px ask: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px ask: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px ask: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px explorer: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px explorer: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px explorer: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px explorer: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px quality: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px quality: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px quality: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px quality: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "1440px about: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "1440px about: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "1440px about: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "1440px about: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px overview: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px overview: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px overview: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px overview: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px marketing: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px marketing: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px marketing: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px marketing: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px products: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px products: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px products: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px products: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px funnel: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px funnel: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px funnel: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px funnel: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px seasonality: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px seasonality: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px seasonality: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px seasonality: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px customers: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px customers: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px customers: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px customers: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px ask: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px ask: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px ask: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px ask: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px explorer: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px explorer: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px explorer: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px explorer: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px quality: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px quality: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px quality: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px quality: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "375px about: no error view",
+      "status": "pass"
+    },
+    {
+      "check": "375px about: one heading",
+      "status": "pass"
+    },
+    {
+      "check": "375px about: no document overflow",
+      "status": "pass"
+    },
+    {
+      "check": "375px about: body has content",
+      "status": "pass"
+    },
+    {
+      "check": "Dark mode toggle",
+      "status": "pass"
+    },
+    {
+      "check": "Dark overview no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark marketing no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark products no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark funnel no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark seasonality no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark customers no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark ask no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark explorer no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark quality no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Dark about no render error",
+      "status": "pass"
+    },
+    {
+      "check": "Cohort month-zero equals one",
+      "status": "pass"
+    },
+    {
+      "check": "Future cohort cells are blank",
+      "status": "pass"
+    },
+    {
+      "check": "Observed cohort zeros are zero",
+      "status": "pass"
+    },
+    {
+      "check": "Cohort denominator matches buyers",
+      "status": "pass"
+    },
+    {
+      "check": "Cohort age-one SQL reconciliation",
+      "status": "pass"
+    },
+    {
+      "check": "Notebook page-popularity analysis included",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: orders",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: revenue",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: gp",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: refunds",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: cogs",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: buyers",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: sessions",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: converted",
+      "status": "pass"
+    },
+    {
+      "check": "URL retains date/source/device filters",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered overview works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered marketing works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered products works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered funnel works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered seasonality works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered customers works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered ask works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered explorer works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered quality works",
+      "status": "pass"
+    },
+    {
+      "check": "Filtered about works",
+      "status": "pass"
+    },
+    {
+      "check": "Question template: summary",
+      "status": "pass"
+    },
+    {
+      "check": "Question answer and SQL summary",
+      "status": "pass"
+    },
+    {
+      "check": "Assistant SQL executes summary",
+      "status": "pass"
+    },
+    {
+      "check": "Question template: sources",
+      "status": "pass"
+    },
+    {
+      "check": "Question answer and SQL sources",
+      "status": "pass"
+    },
+    {
+      "check": "Assistant SQL executes sources",
+      "status": "pass"
+    },
+    {
+      "check": "Question template: products",
+      "status": "pass"
+    },
+    {
+      "check": "Question answer and SQL products",
+      "status": "pass"
+    },
+    {
+      "check": "Assistant SQL executes products",
+      "status": "pass"
+    },
+    {
+      "check": "Question template: refunds",
+      "status": "pass"
+    },
+    {
+      "check": "Question answer and SQL refunds",
+      "status": "pass"
+    },
+    {
+      "check": "Assistant SQL executes refunds",
+      "status": "pass"
+    },
+    {
+      "check": "Question template: devices",
+      "status": "pass"
+    },
+    {
+      "check": "Question answer and SQL devices",
+      "status": "pass"
+    },
+    {
+      "check": "Assistant SQL executes devices",
+      "status": "pass"
+    },
+    {
+      "check": "Question template: repeat",
+      "status": "pass"
+    },
+    {
+      "check": "Question answer and SQL repeat",
+      "status": "pass"
+    },
+    {
+      "check": "Assistant SQL executes repeat",
+      "status": "pass"
+    },
+    {
+      "check": "Question template: trend",
+      "status": "pass"
+    },
+    {
+      "check": "Question answer and SQL trend",
+      "status": "pass"
+    },
+    {
+      "check": "Assistant SQL executes trend",
+      "status": "pass"
+    },
+    {
+      "check": "Unsupported metrics rejected",
+      "status": "pass"
+    },
+    {
+      "check": "Explorer CSV exports all matching rows",
+      "status": "pass"
+    },
+    {
+      "check": "Explorer pagination changes rows",
+      "status": "pass"
+    },
+    {
+      "check": "Explorer ascending sort",
+      "status": "pass"
+    },
+    {
+      "check": "Search empty state",
+      "status": "pass"
+    },
+    {
+      "check": "Search narrows and exports selection",
+      "status": "pass"
+    },
+    {
+      "check": "Invalid date order is rejected",
+      "status": "pass"
+    },
+    {
+      "check": "No-data filter state",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: orders",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: revenue",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: gp",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: refunds",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: cogs",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: buyers",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: sessions",
+      "status": "pass"
+    },
+    {
+      "check": "SQL reconciliation: converted",
+      "status": "pass"
+    },
+    {
+      "check": "Mobile menu opens",
+      "status": "pass"
+    },
+    {
+      "check": "All mobile navigation reachable",
+      "status": "pass"
+    },
+    {
+      "check": "Mobile menu closes on navigation",
+      "status": "pass"
+    },
+    {
+      "check": "Escape dismisses menu",
+      "status": "pass"
+    },
+    {
+      "check": "Print layout retains heading",
+      "status": "pass"
+    },
+    {
+      "check": "No uncaught JavaScript errors",
+      "status": "pass"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source": "Maven Analytics Toy Store E-Commerce Database",
+  "source_url": "https://mavenanalytics.io/data-playground/toy-store-e-commerce-database",
+  "download_url": "https://maven-datasets.s3.us-east-1.amazonaws.com/Maven+Fuzzy+Factory/Maven+Fuzzy+Factory.zip",
+  "provider_license_label": "Public Domain",
+  "retrieved_on": "2026-10-24",
+  "files": [
+    {
+      "file": "maven_fuzzy_factory_data_dictionary.csv",
+      "bytes": 2538,
+      "sha256": "200877f159ad9ea59780c9a9083a7161423b58225a23db4ffb9fc419ae61c199"
+    },
+    {
+      "file": "order_item_refunds.csv",
+      "bytes": 73965,
+      "sha256": "50ad2b8dd1c3dffed3fb9bf0bf288d026bd19cd1032d28ddc59c2623e07a1186"
+    },
+    {
+      "file": "order_items.csv",
+      "bytes": 1933914,
+      "sha256": "751514dfc2f6862dd1afe67dff7f313ec8299eae3fffbb18b1de50bfce93e903"
+    },
+    {
+      "file": "orders.csv",
+      "bytes": 1819538,
+      "sha256": "ed9923cfbdbb9e9d8e1eaf6443d45085165bd067709c359e7189769c835deefe"
+    },
+    {
+      "file": "products.csv",
+      "bytes": 225,
+      "sha256": "116d5f261a5934c46232a3083b9da298cca94157826a41e87566c8c4034175a8"
+    },
+    {
+      "file": "website_pageviews.csv",
+      "bytes": 56915398,
+      "sha256": "e325f5678acc76356670a7538d185613265ba26038c6a2a5a0af68cc68722c4a"
+    },
+    {
+      "file": "website_sessions.csv",
+      "bytes": 42106732,
+      "sha256": "dc975b8c51b4ebdc56b94863c9e1cd94e74d1a9f36ce296d45707a8df87b8204"
+    }
+  ]
+}

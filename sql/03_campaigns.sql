@@ -1,0 +1,1 @@
+select channel,campaign,device_type,count(*) as sessions,sum(converted_session) as converted,sum(converted_session)*1.0/nullif(count(*),0) as conversion,sum(revenue_usd) as sales,sum(revenue_usd)/nullif(count(*),0) as sales_per_session from fct_sessions group by 1,2,3 order by sessions desc;

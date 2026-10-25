@@ -1,0 +1,1 @@
+select year(created_at) as year,quarter(created_at) as quarter,count(*) as sessions,sum(orders) as orders,sum(converted_session)*1.0/nullif(count(*),0) as conversion,sum(revenue_usd)/nullif(sum(orders),0) as sales_per_order,sum(revenue_usd)/nullif(count(*),0) as sales_per_session from fct_sessions group by 1,2 order by 1,2;

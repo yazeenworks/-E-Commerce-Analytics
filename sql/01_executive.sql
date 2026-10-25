@@ -1,0 +1,1 @@
+select count(*) as orders,count(distinct user_id) as buyers,sum(revenue_usd) as sales,sum(cogs_usd) as cogs,sum(gross_profit_usd) as gross_profit,sum(refund_usd) as refunds,sum(net_sales_usd) as net_sales,sum(revenue_usd)/nullif(count(*),0) as aov from fct_orders;

@@ -1,0 +1,43 @@
+FUZZY FACTORY / COMMERCE INTELLIGENCE
+===================================
+THE DASHBOARDS ARE ALREADY BUILT. NO CODING TASKS REQUIRED.
+
+1. Download and extract the ENTIRE ZIP first.
+2. Windows: double-click START_WINDOWS.bat.
+   Mac/Linux: open dashboard/fuzzy-factory.html in your browser.
+   Or if you have Python installed: python run.py
+3. Use the left sidebar to explore all ten workspace pages.
+
+No pip install, Python, MySQL, login, API key or Power BI is needed for viewing.
+Charts and all records needed by the dashboard are included locally.
+Optional fonts use internet but safely fall back offline.
+
+WHAT IS INCLUDED
+- Executive overview
+- Marketing sources, campaigns and device performance
+- Product economics and refunds
+- Website conversion funnel and landing-page performance
+- Seasonality, quarterly scorecards and yearly sales
+- Customers, repeat purchases and purchase-cohort retention
+- Offline supported-question assistant (rule-based, NOT an LLM)
+- Searchable, sortable order explorer with CSV exports
+- Data quality, build checks and source lineage
+- Metric definitions and limitations
+- Original source CSVs, prebuilt database, dbt SQL models and tests
+- Python rebuild scripts, walkthrough notebook and documentation
+
+IMPORTANT SCOPE
+These are completed WEB dashboards, not a Power BI .pbix or Tableau .twbx file.
+Optional Power BI-ready exports, DAX, Power Query and theme are also included.
+The data describes a fictional educational business from 2012 to 2015.
+It is not live 2026 data. Gross profit is not net profit.
+
+OPTIONAL FULL REBUILD (not required to view)
+Python 3.11 or 3.12 recommended, then:
+    python -m venv .venv
+    Windows: .venv\Scripts\activate
+    Mac/Linux: source .venv/bin/activate
+    python -m pip install -r requirements.txt
+    python run.py --rebuild --test
+
+If you only want the dashboard, stop at step 3 above. No rebuild is needed.

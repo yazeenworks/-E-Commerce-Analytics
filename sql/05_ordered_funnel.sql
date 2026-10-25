@@ -1,0 +1,1 @@
+select count(*) as sessions,sum(reached_products) as products,sum(reached_cart) as cart,sum(reached_shipping) as shipping,sum(reached_billing) as billing,sum(reached_thankyou) as completed from fct_sessions;

@@ -1,0 +1,1 @@
+with buyers as (select user_id,count(*) as orders,sum(revenue_usd) as observed_sales from fct_orders group by 1) select count(*) as buyers,count(*) filter(where orders>=2) as repeat_buyers,count(*) filter(where orders>=2)*1.0/nullif(count(*),0) as repeat_rate from buyers;

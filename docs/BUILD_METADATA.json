@@ -1,0 +1,116 @@
+{
+  "min_date": "2012-03-19",
+  "max_date": "2015-03-19",
+  "counts": {
+    "orders": 32313,
+    "order_items": 40025,
+    "order_item_refunds": 1731,
+    "products": 4,
+    "website_sessions": 472871,
+    "website_pageviews": 1188124
+  },
+  "quality": [
+    {
+      "name": "pageviews have sessions",
+      "status": "pass",
+      "seconds": 0.06124615669250488
+    },
+    {
+      "name": "key dim products",
+      "status": "pass",
+      "seconds": 0.0087738037109375
+    },
+    {
+      "name": "normalized attribution",
+      "status": "pass",
+      "seconds": 0.31221866607666016
+    },
+    {
+      "name": "key dim dates",
+      "status": "pass",
+      "seconds": 0.008422613143920898
+    },
+    {
+      "name": "items have products",
+      "status": "pass",
+      "seconds": 0.017468690872192383
+    },
+    {
+      "name": "items have orders",
+      "status": "pass",
+      "seconds": 0.018345117568969727
+    },
+    {
+      "name": "positive item values",
+      "status": "pass",
+      "seconds": 0.01391148567199707
+    },
+    {
+      "name": "key fct order items",
+      "status": "pass",
+      "seconds": 0.01794576644897461
+    },
+    {
+      "name": "refund reconciliation",
+      "status": "pass",
+      "seconds": 0.014343500137329102
+    },
+    {
+      "name": "profit math",
+      "status": "pass",
+      "seconds": 0.022997617721557617
+    },
+    {
+      "name": "rows fct order items",
+      "status": "pass",
+      "seconds": 0.009401321411132812
+    },
+    {
+      "name": "key fct orders",
+      "status": "pass",
+      "seconds": 0.018445491790771484
+    },
+    {
+      "name": "order item totals",
+      "status": "pass",
+      "seconds": 0.025847434997558594
+    },
+    {
+      "name": "revenue reconciliation",
+      "status": "pass",
+      "seconds": 0.010577201843261719
+    },
+    {
+      "name": "orders have sessions",
+      "status": "pass",
+      "seconds": 0.024611234664916992
+    },
+    {
+      "name": "rows fct orders",
+      "status": "pass",
+      "seconds": 0.01082754135131836
+    },
+    {
+      "name": "key dim customers",
+      "status": "pass",
+      "seconds": 0.01089787483215332
+    },
+    {
+      "name": "funnel monotonic",
+      "status": "pass",
+      "seconds": 0.02336859703063965
+    },
+    {
+      "name": "rows fct sessions",
+      "status": "pass",
+      "seconds": 0.008464813232421875
+    },
+    {
+      "name": "key fct sessions",
+      "status": "pass",
+      "seconds": 0.04715228080749512
+    }
+  ],
+  "build_date": "2026-10-24",
+  "source": "https://mavenanalytics.io/data-playground/toy-store-e-commerce-database"
+}

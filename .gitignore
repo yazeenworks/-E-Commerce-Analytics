@@ -1,0 +1,41 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.zip
+*.duckdb
+*.duckdb.wal
+data/raw/*.csv
+data/exports/*.csv
+dbt_project/target/
+dbt_project/logs/
+dbt_project/.user.yml
+.DS_Store
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large source and generated data
+*.zip
+*.duckdb
+*.duckdb.wal
+data/raw/*.csv
+data/exports/*.csv
+
+# dbt generated files
+dbt_project/target/
+dbt_project/logs/
+dbt_project/.user.yml
+
+# Operating-system files
+.DS_Store
+Thumbs.db

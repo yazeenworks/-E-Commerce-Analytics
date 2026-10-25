@@ -1,0 +1,23 @@
+-- Create as separate Power BI measures after importing tables under the file names.
+Gross Sales = SUM(fct_orders[revenue_usd])
+Product COGS = SUM(fct_orders[cogs_usd])
+Gross Profit = [Gross Sales] - [Product COGS]
+Gross Margin % = DIVIDE([Gross Profit], [Gross Sales])
+Orders = COUNTROWS(fct_orders)
+AOV = DIVIDE([Gross Sales], [Orders])
+Refund Amount = SUM(fct_orders[refund_usd])
+Net Sales = [Gross Sales] - [Refund Amount]
+Contribution After Refunds = [Gross Profit] - [Refund Amount]
+Sessions = COUNTROWS(fct_sessions)
+Converted Sessions = SUM(fct_sessions[converted_session])
+Session Conversion % = DIVIDE([Converted Sessions], [Sessions])
+Attributed Sales = SUM(fct_sessions[revenue_usd])
+Sales per Session = DIVIDE([Attributed Sales], [Sessions])
+Bounce Rate % = DIVIDE(SUM(fct_sessions[bounced]), [Sessions])
+Sold Items = COUNTROWS(fct_order_items)
+Refunded Items = SUM(fct_order_items[refunded_item])
+Refunded Item Rate % = DIVIDE([Refunded Items], [Sold Items])
+Buyers = DISTINCTCOUNT(fct_orders[user_id])
+Repeat Buyers = COUNTROWS(FILTER(VALUES(fct_orders[user_id]), CALCULATE(COUNTROWS(fct_orders)) >= 2))
+Repeat Purchase Rate % = DIVIDE([Repeat Buyers], [Buyers])
+Observed Sales per Buyer = DIVIDE([Gross Sales], [Buyers])
